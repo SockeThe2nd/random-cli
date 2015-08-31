@@ -1,0 +1,31 @@
+{
+  "name": "random-cli",
+  "version": "1.0.0",
+  "description": "Supplies a cli for [ckknight](https://www.npmjs.com/~ckknight)'s [random-js](https://github.com/ckknight/random-js) module.",
+  "main": "app.js",
+  "bin": {
+    "random-cli": "bin/random-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roland Paltz <roland.paltz@gmx.net> (https://github.com/SockeThe2nd)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "random-js": "^1.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SockeThe2nd/random-cli.git"
+  },
+  "keywords": [
+    "random",
+    "random-cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/SockeThe2nd/random-cli/issues"
+  },
+  "homepage": "https://github.com/SockeThe2nd/random-cli#readme"
+}
